@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState, useMemo } from 'react'
 import { ProgramStage } from '../lib/supabase'
 import { useAuth } from '../contexts/AuthContext'
 
@@ -8,7 +8,7 @@ const ProgramGuide: React.FC = () => {
 	const [loading, setLoading] = useState(true)
 	const [expanded, setExpanded] = useState<string | null>(null)
 
-	const defaults: ProgramStage[] = [
+	const defaults = useMemo((): ProgramStage[] => [
 		{
 			id: 'fase0',
 			name: 'Fase 0 – Gobernanza & Arranque',
@@ -146,12 +146,12 @@ const ProgramGuide: React.FC = () => {
 			],
 			dpo_approved: false
 		}
-	]
+	], [])
 
 	useEffect(() => {
 		setStages(defaults)
 		setLoading(false)
-	}, [])
+	}, [defaults])
 
 	if (loading) return <div>Cargando…</div>
 

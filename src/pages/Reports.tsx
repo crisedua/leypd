@@ -1,8 +1,7 @@
 import React, { useMemo } from 'react'
 
 const Reports: React.FC = () => {
-	const now = new Date()
-	const dateStr = useMemo(() => now.toLocaleString('es-CL'), [now])
+	const dateStr = useMemo(() => new Date().toLocaleString('es-CL'), [])
 
 	const exportPdf = () => {
 		alert('Exportar a PDF (placeholder). En producción usaría una librería como jsPDF/Print).')

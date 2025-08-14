@@ -1,13 +1,11 @@
 import React, { useState, useMemo } from 'react'
 import {
-	PlusIcon,
 	MagnifyingGlassIcon,
 	FunnelIcon,
 	DocumentArrowDownIcon,
 	EyeIcon,
 	TrashIcon,
 	DocumentTextIcon,
-	FolderIcon,
 	ArrowUpTrayIcon
 } from '@heroicons/react/24/outline'
 import toast from 'react-hot-toast'
