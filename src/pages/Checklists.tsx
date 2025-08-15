@@ -44,6 +44,13 @@ const seed: ChecklistItem[] = [
 	{ id: 'f2-3', phase: 'Políticas y Procedimientos', title: 'Establecer procedimientos para gestión de derechos ARCO y portabilidad', status: 'to_do', priority: 'high' },
 	{ id: 'f2-4', phase: 'Políticas y Procedimientos', title: 'Desarrollar protocolo para notificación y gestión de incidentes de seguridad', status: 'to_do', priority: 'high' },
 	{ id: 'f2-5', phase: 'Políticas y Procedimientos', title: 'Elaborar manual interno de tratamiento de datos y instructivos para empleados', status: 'to_do', priority: 'medium' },
+	{ id: 'f2-6', phase: 'Políticas y Procedimientos', title: 'Implementar procesos para obtención y gestión del consentimiento informado (libre, específico, informado y explícito)', status: 'to_do', priority: 'high' },
+	{ id: 'f2-7', phase: 'Políticas y Procedimientos', title: 'Establecer mecanismos para registro y revocación de consentimientos en cualquier momento', status: 'to_do', priority: 'high' },
+	{ id: 'f2-8', phase: 'Políticas y Procedimientos', title: 'Crear procedimientos para actualización periódica de políticas ante cambios legales o regulatorios', status: 'to_do', priority: 'high' },
+	{ id: 'f2-9', phase: 'Políticas y Procedimientos', title: 'Implementar sistema de registros de cumplimiento para evidencia documental de auditorías', status: 'to_do', priority: 'high' },
+	{ id: 'f2-10', phase: 'Políticas y Procedimientos', title: 'Establecer procedimientos para principio de minimización y limitación de finalidad del tratamiento', status: 'to_do', priority: 'high' },
+	{ id: 'f2-11', phase: 'Políticas y Procedimientos', title: 'Desarrollar protocolos para atención de requerimientos de la Agencia de Protección de Datos', status: 'to_do', priority: 'high' },
+	{ id: 'f2-12', phase: 'Políticas y Procedimientos', title: 'Implementar políticas de privacidad desde el diseño (Privacy by Design) en nuevos productos y procesos', status: 'to_do', priority: 'medium' },
 
 	// Fase 3: Organización y Responsabilidades
 	{ id: 'f3-1', phase: 'Organización y Responsabilidades', title: 'Designar al Delegado de Protección de Datos (DPO), si corresponde', status: 'to_do', priority: 'high' },
