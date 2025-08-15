@@ -23,13 +23,15 @@ import {
 	HandRaisedIcon,
 	AcademicCapIcon,
 	PresentationChartLineIcon,
-	GlobeAltIcon
+	GlobeAltIcon,
+	ClipboardDocumentCheckIcon
 } from '@heroicons/react/24/outline'
 
 interface LayoutProps { children: React.ReactNode }
 
 const navigation = [
 	{ name: 'Inicio', href: '/', icon: HomeIcon },
+	{ name: 'Auto-Diagnóstico', href: '/auto-diagnostico', icon: ClipboardDocumentCheckIcon },
 	{ name: 'Roadmap', href: '/roadmap', icon: MapIcon },
 	{ name: 'Checklists', href: '/checklists', icon: ClipboardDocumentIcon },
 	{ name: 'RoPA', href: '/ropa', icon: QueueListIcon },

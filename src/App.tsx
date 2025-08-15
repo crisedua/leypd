@@ -24,6 +24,7 @@ import Consent from './pages/Consent'
 import Governance from './pages/Governance'
 import Dashboards from './pages/Dashboards'
 import WebScraper from './pages/WebScraper'
+import AutoDiagnosis from './pages/AutoDiagnosis'
 import './index.css'
 
 const ProtectedRoute: React.FC<{ children: React.ReactNode }> = ({ children }) => {
@@ -77,6 +78,7 @@ const App: React.FC = () => {
 					<Route path="/gobernanza" element={<ProtectedRoute><Layout><Governance /></Layout></ProtectedRoute>} />
 					<Route path="/dashboards" element={<ProtectedRoute><Layout><Dashboards /></Layout></ProtectedRoute>} />
 					<Route path="/web-scraper" element={<ProtectedRoute><Layout><WebScraper /></Layout></ProtectedRoute>} />
+					<Route path="/auto-diagnostico" element={<ProtectedRoute><Layout><AutoDiagnosis /></Layout></ProtectedRoute>} />
 				</Routes>
 			</BrowserRouter>
 		</AuthProvider>
