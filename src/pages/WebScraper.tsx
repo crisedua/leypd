@@ -3,7 +3,6 @@ import {
 	ExclamationTriangleIcon, 
 	CheckCircleIcon, 
 	ClockIcon,
-	GlobeAltIcon,
 	ArrowDownTrayIcon,
 	PlayIcon,
 	StopIcon,
