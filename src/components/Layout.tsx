@@ -32,23 +32,19 @@ const navigation = [
 	{ name: 'Inicio', href: '/', icon: HomeIcon },
 	{ name: 'Roadmap', href: '/roadmap', icon: MapIcon },
 	{ name: 'Checklists', href: '/checklists', icon: ClipboardDocumentIcon },
-	{ name: 'Tareas por Fase', href: '/pm-tareas', icon: ClipboardDocumentListIcon },
-	{ name: 'Reportes', href: '/reportes', icon: DocumentDuplicateIcon },
-	{ name: 'KPIs', href: '/kpis', icon: ChartBarIcon },
-	{ name: 'Timeline', href: '/timeline', icon: ClockIcon },
-	{ name: 'Usuarios', href: '/usuarios', icon: UsersIcon },
-	{ name: 'Ayuda', href: '/ayuda', icon: QuestionMarkCircleIcon },
-    { name: 'Configuración', href: '/configuracion', icon: Cog6ToothIcon },
-    { name: 'Documentos', href: '/documentos', icon: DocumentTextIcon },
 	{ name: 'RoPA', href: '/ropa', icon: QueueListIcon },
 	{ name: 'DSAR Hub', href: '/dsar', icon: UserGroupIcon },
 	{ name: 'DPIA Copilot', href: '/dpia', icon: ShieldCheckIcon },
-	{ name: 'Incidentes', href: '/incidentes', icon: ExclamationTriangleIcon },
-	{ name: 'Proveedores', href: '/proveedores', icon: BuildingStorefrontIcon },
-	{ name: 'Consentimiento', href: '/consentimiento', icon: HandRaisedIcon },
 	{ name: 'Gobernanza', href: '/gobernanza', icon: AcademicCapIcon },
-	{ name: 'Dashboards', href: '/dashboards', icon: PresentationChartLineIcon },
 	{ name: 'Web Scraper', href: '/web-scraper', icon: GlobeAltIcon }
+]
+
+const gestionNavigation = [
+	{ name: 'Reportes', href: '/reportes', icon: DocumentDuplicateIcon },
+	{ name: 'KPIs', href: '/kpis', icon: ChartBarIcon },
+	{ name: 'Usuarios', href: '/usuarios', icon: UsersIcon },
+	{ name: 'Documentos', href: '/documentos', icon: DocumentTextIcon },
+	{ name: 'Tareas por Fase', href: '/pm-tareas', icon: ClipboardDocumentListIcon }
 ]
 
 const Layout: React.FC<LayoutProps> = ({ children }) => {
@@ -85,6 +81,23 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
 						)
 					})}
 				</nav>
+				
+				{/* Gestión Section */}
+				<div className="mt-6 border-t pt-4">
+					<div className="mb-3 text-xs font-semibold uppercase tracking-wider text-gray-500">Gestión</div>
+					<nav className="space-y-1">
+						{gestionNavigation.map((item) => {
+							const isActive = location.pathname === item.href
+							const Icon = item.icon
+							return (
+								<Link key={item.name} to={item.href} onClick={() => setSidebarOpen(false)} className={`flex items-center gap-3 rounded-md px-3 py-2 text-sm font-medium ${isActive ? 'bg-primary-50 text-primary-700' : 'text-gray-700 hover:bg-gray-50'}`}>
+									<Icon className="h-5 w-5" />
+									{item.name}
+								</Link>
+							)
+						})}
+					</nav>
+				</div>
 				<div className="mt-8 border-t pt-4 text-sm text-gray-600">
 					<div className="mb-2">{user?.name || user?.email}</div>
 					<button onClick={handleSignOut} className="btn-secondary inline-flex items-center gap-2">
