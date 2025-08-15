@@ -71,12 +71,23 @@ const seed: ChecklistItem[] = [
 	{ id: 'f4-3', phase: 'Seguridad de la Información', title: 'Realizar pruebas de vulnerabilidad y análisis de riesgos periódicos', status: 'to_do', priority: 'medium' },
 	{ id: 'f4-4', phase: 'Seguridad de la Información', title: 'Desarrollar y probar un plan de respuesta ante incidentes', status: 'to_do', priority: 'high' },
 	{ id: 'f4-5', phase: 'Seguridad de la Información', title: 'Evaluar la necesidad de realizar Evaluaciones de Impacto (PIA) sobre privacidad', status: 'to_do', priority: 'medium' },
+	{ id: 'f4-6', phase: 'Seguridad de la Información', title: 'Implementar anonimización y pseudonimización de datos para limitar riesgos', status: 'to_do', priority: 'low' },
+	{ id: 'f4-7', phase: 'Seguridad de la Información', title: 'Documentar simulacros/pruebas realizadas y mantener registro de incidentes y acciones tomadas', status: 'to_do', priority: 'low' },
+	{ id: 'f4-8', phase: 'Seguridad de la Información', title: 'Establecer monitoreo continuo y actualización constante de medidas frente a nuevas amenazas', status: 'to_do', priority: 'low' },
+	{ id: 'f4-9', phase: 'Seguridad de la Información', title: 'Verificar que el plan incluya notificación en menos de 72h a autoridad y titulares', status: 'to_do', priority: 'low' },
+	{ id: 'f4-10', phase: 'Seguridad de la Información', title: 'Implementar protección desde el diseño y por defecto en la concepción de sistemas', status: 'to_do', priority: 'low' },
+	{ id: 'f4-11', phase: 'Seguridad de la Información', title: 'Establecer gestión documental de políticas, capacitaciones, pruebas y planes para auditoría', status: 'to_do', priority: 'low' },
 
 	// Fase 5: Transferencias y Proveedores
 	{ id: 'f5-1', phase: 'Transferencias Internacionales y Gestión de Proveedores', title: 'Identificar todas las transferencias internacionales de datos y proveedores externos', status: 'to_do', priority: 'high' },
 	{ id: 'f5-2', phase: 'Transferencias Internacionales y Gestión de Proveedores', title: 'Revisar contratos y asegurarse que cuentan con cláusulas de protección de datos válidas', status: 'to_do', priority: 'high' },
 	{ id: 'f5-3', phase: 'Transferencias Internacionales y Gestión de Proveedores', title: 'Adaptar procesos para cumplir restricciones y requisitos legales de transferencia internacional', status: 'to_do', priority: 'high' },
 	{ id: 'f5-4', phase: 'Transferencias Internacionales y Gestión de Proveedores', title: 'Asegurar que los proveedores cumplen la Ley 21.719 y otras normativas relevantes', status: 'to_do', priority: 'high' },
+	{ id: 'f5-5', phase: 'Transferencias Internacionales y Gestión de Proveedores', title: 'Documentar fundamento legal de cada transferencia (nivel de protección, cláusulas, legitimación)', status: 'to_do', priority: 'low' },
+	{ id: 'f5-6', phase: 'Transferencias Internacionales y Gestión de Proveedores', title: 'Mantener evidencia documental de revisiones, acuerdos firmados y auditorías a proveedores', status: 'to_do', priority: 'low' },
+	{ id: 'f5-7', phase: 'Transferencias Internacionales y Gestión de Proveedores', title: 'Establecer procesos para monitorear periódicamente a proveedores ante cambios de riesgos y normativas', status: 'to_do', priority: 'low' },
+	{ id: 'f5-8', phase: 'Transferencias Internacionales y Gestión de Proveedores', title: 'Prever mecanismos para manejo y notificación de incidentes por parte de proveedores externos', status: 'to_do', priority: 'low' },
+	{ id: 'f5-9', phase: 'Transferencias Internacionales y Gestión de Proveedores', title: 'Implementar procedimientos para destrucción/retorno seguro de datos al finalizar servicios', status: 'to_do', priority: 'low' },
 
 	// Fase 6: Monitoreo y Cultura
 	{ id: 'f6-1', phase: 'Monitoreo Continuo y Cultura Organizacional', title: 'Realizar auditorías internas periódicas del cumplimiento', status: 'to_do', priority: 'medium' },
