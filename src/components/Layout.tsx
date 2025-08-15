@@ -22,7 +22,8 @@ import {
 	ExclamationTriangleIcon,
 	HandRaisedIcon,
 	AcademicCapIcon,
-	PresentationChartLineIcon
+	PresentationChartLineIcon,
+	GlobeAltIcon
 } from '@heroicons/react/24/outline'
 
 interface LayoutProps { children: React.ReactNode }
@@ -46,7 +47,8 @@ const navigation = [
 	{ name: 'Proveedores', href: '/proveedores', icon: BuildingStorefrontIcon },
 	{ name: 'Consentimiento', href: '/consentimiento', icon: HandRaisedIcon },
 	{ name: 'Gobernanza', href: '/gobernanza', icon: AcademicCapIcon },
-	{ name: 'Dashboards', href: '/dashboards', icon: PresentationChartLineIcon }
+	{ name: 'Dashboards', href: '/dashboards', icon: PresentationChartLineIcon },
+	{ name: 'Web Scraper', href: '/web-scraper', icon: GlobeAltIcon }
 ]
 
 const Layout: React.FC<LayoutProps> = ({ children }) => {

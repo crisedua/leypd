@@ -31,7 +31,8 @@ module.exports = {
         danger: {
           100: '#fee2e2',
           500: '#ef4444',
-          600: '#dc2626'
+          600: '#dc2626',
+          700: '#b91c1c'
         }
       },
       fontFamily: {
