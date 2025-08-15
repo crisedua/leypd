@@ -30,13 +30,13 @@ const seed: ChecklistItem[] = [
 	{ id: 'f1-4', phase: 'Diagnóstico y Preparación Inicial', title: 'Realizar análisis de brechas de cumplimiento respecto a la nueva ley', status: 'to_do', priority: 'high' },
 	{ id: 'f1-5', phase: 'Diagnóstico y Preparación Inicial', title: 'Crear y documentar el Registro de Actividades de Tratamiento (RAT)', status: 'to_do', priority: 'high' },
 	
-	// Additional Diagnostic Items
-	{ id: 'f1-6', phase: 'Diagnóstico y Preparación Inicial', title: 'Evaluar base legal para cada flujo de datos (consentimiento, interés legítimo, obligación contractual, etc.)', status: 'to_do', priority: 'high' },
-	{ id: 'f1-7', phase: 'Diagnóstico y Preparación Inicial', title: 'Mapear cómo cada proceso permite el ejercicio de derechos ARCO+ (acceso, rectificación, supresión, oposición, portabilidad)', status: 'to_do', priority: 'high' },
-	{ id: 'f1-8', phase: 'Diagnóstico y Preparación Inicial', title: 'Inventariar todos los proveedores y procesadores de datos externos', status: 'to_do', priority: 'high' },
-	{ id: 'f1-9', phase: 'Diagnóstico y Preparación Inicial', title: 'Evaluar transferencias internacionales de datos y cumplimiento de requisitos de transferencia', status: 'to_do', priority: 'high' },
-	{ id: 'f1-10', phase: 'Diagnóstico y Preparación Inicial', title: 'Realizar Evaluación de Impacto en Protección de Datos (DPIA) para tratamientos de alto riesgo', status: 'to_do', priority: 'medium' },
-	{ id: 'f1-11', phase: 'Diagnóstico y Preparación Inicial', title: 'Analizar políticas de retención de datos y alinearlas con requisitos legales y de negocio', status: 'to_do', priority: 'medium' },
+	// Additional Diagnostic Items (Opcional)
+	{ id: 'f1-6', phase: 'Diagnóstico y Preparación Inicial', title: 'Evaluar base legal para cada flujo de datos (consentimiento, interés legítimo, obligación contractual, etc.)', status: 'to_do', priority: 'low' },
+	{ id: 'f1-7', phase: 'Diagnóstico y Preparación Inicial', title: 'Mapear cómo cada proceso permite el ejercicio de derechos ARCO+ (acceso, rectificación, supresión, oposición, portabilidad)', status: 'to_do', priority: 'low' },
+	{ id: 'f1-8', phase: 'Diagnóstico y Preparación Inicial', title: 'Inventariar todos los proveedores y procesadores de datos externos', status: 'to_do', priority: 'low' },
+	{ id: 'f1-9', phase: 'Diagnóstico y Preparación Inicial', title: 'Evaluar transferencias internacionales de datos y cumplimiento de requisitos de transferencia', status: 'to_do', priority: 'low' },
+	{ id: 'f1-10', phase: 'Diagnóstico y Preparación Inicial', title: 'Realizar Evaluación de Impacto en Protección de Datos (DPIA) para tratamientos de alto riesgo', status: 'to_do', priority: 'low' },
+	{ id: 'f1-11', phase: 'Diagnóstico y Preparación Inicial', title: 'Analizar políticas de retención de datos y alinearlas con requisitos legales y de negocio', status: 'to_do', priority: 'low' },
 
 	// Fase 2: Políticas y Procedimientos
 	{ id: 'f2-1', phase: 'Políticas y Procedimientos', title: 'Redactar o actualizar la Política de Privacidad (alineada a la ley)', status: 'to_do', priority: 'high' },
@@ -44,13 +44,13 @@ const seed: ChecklistItem[] = [
 	{ id: 'f2-3', phase: 'Políticas y Procedimientos', title: 'Establecer procedimientos para gestión de derechos ARCO y portabilidad', status: 'to_do', priority: 'high' },
 	{ id: 'f2-4', phase: 'Políticas y Procedimientos', title: 'Desarrollar protocolo para notificación y gestión de incidentes de seguridad', status: 'to_do', priority: 'high' },
 	{ id: 'f2-5', phase: 'Políticas y Procedimientos', title: 'Elaborar manual interno de tratamiento de datos y instructivos para empleados', status: 'to_do', priority: 'medium' },
-	{ id: 'f2-6', phase: 'Políticas y Procedimientos', title: 'Implementar procesos para obtención y gestión del consentimiento informado (libre, específico, informado y explícito)', status: 'to_do', priority: 'high' },
-	{ id: 'f2-7', phase: 'Políticas y Procedimientos', title: 'Establecer mecanismos para registro y revocación de consentimientos en cualquier momento', status: 'to_do', priority: 'high' },
-	{ id: 'f2-8', phase: 'Políticas y Procedimientos', title: 'Crear procedimientos para actualización periódica de políticas ante cambios legales o regulatorios', status: 'to_do', priority: 'high' },
-	{ id: 'f2-9', phase: 'Políticas y Procedimientos', title: 'Implementar sistema de registros de cumplimiento para evidencia documental de auditorías', status: 'to_do', priority: 'high' },
-	{ id: 'f2-10', phase: 'Políticas y Procedimientos', title: 'Establecer procedimientos para principio de minimización y limitación de finalidad del tratamiento', status: 'to_do', priority: 'high' },
-	{ id: 'f2-11', phase: 'Políticas y Procedimientos', title: 'Desarrollar protocolos para atención de requerimientos de la Agencia de Protección de Datos', status: 'to_do', priority: 'high' },
-	{ id: 'f2-12', phase: 'Políticas y Procedimientos', title: 'Implementar políticas de privacidad desde el diseño (Privacy by Design) en nuevos productos y procesos', status: 'to_do', priority: 'medium' },
+	{ id: 'f2-6', phase: 'Políticas y Procedimientos', title: 'Implementar procesos para obtención y gestión del consentimiento informado (libre, específico, informado y explícito)', status: 'to_do', priority: 'low' },
+	{ id: 'f2-7', phase: 'Políticas y Procedimientos', title: 'Establecer mecanismos para registro y revocación de consentimientos en cualquier momento', status: 'to_do', priority: 'low' },
+	{ id: 'f2-8', phase: 'Políticas y Procedimientos', title: 'Crear procedimientos para actualización periódica de políticas ante cambios legales o regulatorios', status: 'to_do', priority: 'low' },
+	{ id: 'f2-9', phase: 'Políticas y Procedimientos', title: 'Implementar sistema de registros de cumplimiento para evidencia documental de auditorías', status: 'to_do', priority: 'low' },
+	{ id: 'f2-10', phase: 'Políticas y Procedimientos', title: 'Establecer procedimientos para principio de minimización y limitación de finalidad del tratamiento', status: 'to_do', priority: 'low' },
+	{ id: 'f2-11', phase: 'Políticas y Procedimientos', title: 'Desarrollar protocolos para atención de requerimientos de la Agencia de Protección de Datos', status: 'to_do', priority: 'low' },
+	{ id: 'f2-12', phase: 'Políticas y Procedimientos', title: 'Implementar políticas de privacidad desde el diseño (Privacy by Design) en nuevos productos y procesos', status: 'to_do', priority: 'low' },
 
 	// Fase 3: Organización y Responsabilidades
 	{ id: 'f3-1', phase: 'Organización y Responsabilidades', title: 'Designar al Delegado de Protección de Datos (DPO), si corresponde', status: 'to_do', priority: 'high' },
@@ -58,6 +58,12 @@ const seed: ChecklistItem[] = [
 	{ id: 'f3-3', phase: 'Organización y Responsabilidades', title: 'Formar equipo interno responsable de cumplimiento', status: 'to_do', priority: 'high' },
 	{ id: 'f3-4', phase: 'Organización y Responsabilidades', title: 'Capacitar a todo el personal en protección de datos y su rol', status: 'to_do', priority: 'medium' },
 	{ id: 'f3-5', phase: 'Organización y Responsabilidades', title: 'Revisar, actualizar y firmar contratos con proveedores y encargados de tratamiento', status: 'to_do', priority: 'high' },
+	{ id: 'f3-6', phase: 'Organización y Responsabilidades', title: 'Documentar el proceso de elección del DPO o fundamentos para no designarlo (para justificar ante fiscalización)', status: 'to_do', priority: 'high' },
+	{ id: 'f3-7', phase: 'Organización y Responsabilidades', title: 'Definir roles y responsabilidades diferenciadas del equipo de cumplimiento por escrito', status: 'to_do', priority: 'high' },
+	{ id: 'f3-8', phase: 'Organización y Responsabilidades', title: 'Implementar sistema de registro de capacitaciones realizadas y sus contenidos', status: 'to_do', priority: 'medium' },
+	{ id: 'f3-9', phase: 'Organización y Responsabilidades', title: 'Establecer medidas para fomentar cultura de protección de datos en todos los niveles organizacionales', status: 'to_do', priority: 'medium' },
+	{ id: 'f3-10', phase: 'Organización y Responsabilidades', title: 'Desarrollar plan de auditorías internas periódicas como mecanismo preventivo ante fiscalización', status: 'to_do', priority: 'medium' },
+	{ id: 'f3-11', phase: 'Organización y Responsabilidades', title: 'Establecer gestión de subencargados con obligaciones contractuales alineadas a la Ley 21.719', status: 'to_do', priority: 'high' },
 
 	// Fase 4: Seguridad de la Información
 	{ id: 'f4-1', phase: 'Seguridad de la Información', title: 'Implementar medidas técnicas (cifrado, backups, control de accesos)', status: 'to_do', priority: 'high' },
